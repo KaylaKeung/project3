@@ -1,0 +1,70 @@
+
+body {
+    font-family: Arial;
+}
+
+.image-container{
+    position: relative;
+ border: 3px solid black;
+margin:auto;
+width:200px;
+ height: 400px;
+ object-fit: scale-down;
+ margin-bottom: 15px;
+ flex-basis: 17%;
+ display: flex;
+ overflow: hidden;
+ justify-content: center;
+align-items: center;
+object-fit: cover;
+
+ 
+ 
+}
+.preview-image{
+    position: absolute;
+    width:300px;
+    padding:auto;
+    height:auto;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+object-fit: cover;
+
+
+}
+.name{
+    position: absolute;
+    left:40px;
+    top: 50px;
+    margin:auto;
+    opacity: 0;
+    display: flex;
+   
+}
+.designer{ position: absolute;
+   left:40px;
+   top: 130px;
+    margin:0;
+   opacity: 0;
+    padding-top:3px;
+    padding-bottom: 0;
+
+}.button{ position: absolute;
+    font-size: 2em;
+    left:40px;
+    bottom:10px;
+     margin:0;
+    text-align: center;
+     padding-top:3px;
+     padding-bottom: 0;
+     opacity: 0;
+ }
+ .grid{
+     display:flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     column-fill: auto;
+ }
